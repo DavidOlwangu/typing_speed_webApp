@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width", initial-scale="1.0">
+        <title>Typing Speed Test Web App</title>
+    </head>
+    <body>
+        <fieldset>
+            <legend>Typing Speed Test</legend>
+            <div>
+                <h2>Speed Typing Analysis</h2>
+            </div>
+
+            <div>
+                <label>Type the following text:</label>
+                <textarea id="inputText" cols="25" rows="5" readonly placeholder="Get ready to type..."></textarea>
+            </div>
+
+            <div>
+                <label>Your typing:</label>
+                <textarea id="userInput" cols="25" rows="5" placeholder="Start typing when ready"></textarea>
+            </div>
+
+            <div>
+                <button type="button">Start Test</button>
+                <button type="button">End Test</button>
+            </div>
+            
+            <div id="output">
+                <!--Content will come here-->
+            </div>
+
+            <script src="script.js"></script>
+        </fieldset>
+    </body>
+</html>
